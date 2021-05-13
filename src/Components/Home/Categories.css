@@ -1,0 +1,59 @@
+.title {
+	text-align: left;
+	margin: 8% 5% 0 5%;
+}
+.title h2 {
+	font-size: 1.5rem;
+	font-family: 'Nanum', sans-serif;
+	font-weight: 900;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+.title h5 {
+	font-size: 0.9rem;
+	font-family: 'Nanum', serif;
+	font-weight: 500;
+}
+
+.box {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0 0 40px 0;
+}
+
+.box section figure img{
+    width:200px;
+    height:200px;
+    transition: transform .2s;
+}
+
+.box strike{
+	color: gray;
+}
+.box section {
+	cursor: pointer;
+    max-width: 280px;
+	margin: 15px;
+    padding: 2%;
+	align-items: center;
+	text-align: center;
+    transition:0.3s;
+    background-color:rgba(0,0,0,.01);
+}
+.box section:hover{
+    background-color:rgba(0,0,0,.05);
+}
+.box section button{
+    background-color:black;
+    color: white;
+    margin: 0 2px;
+    padding: 7px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.box section button:hover {
+	background-color: orange;
+}

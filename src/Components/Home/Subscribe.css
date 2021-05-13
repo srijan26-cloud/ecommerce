@@ -1,0 +1,19 @@
+.Subscribe{
+    display: flex;
+	align-items: center;
+	background: black;
+	width: 100%;
+	height: 355px;
+    justify-content: center;
+}
+.Subscribe input{
+    padding: 8px 15px;
+    outline: none;
+    width: 30%;
+}
+.Subscribe i{
+    padding: 10px 18px;
+    background-color: orange;
+    color: #fff;
+    cursor: pointer;
+}

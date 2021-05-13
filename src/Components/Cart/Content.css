@@ -1,0 +1,19 @@
+.Content{
+    justify-content: center;
+    background-color: rgb(207, 198, 196);
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+.Content h3{
+    padding: 200px 0;
+}
+.Content i{
+    padding : 8px 16px;
+    background-color: black;
+    color: white;
+}
+.Content i:hover{
+    background-color: orange;
+}

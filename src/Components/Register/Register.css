@@ -1,0 +1,52 @@
+.Register{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Register form{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Register form input{
+    margin: 20px 50px;
+    padding: 15px 16px;
+    width: 30%;
+    background-color: transparent;
+    color: white;
+    border: 0.1px solid white;
+}
+::placeholder{
+    color: grey;
+}
+.Register form input[type='submit']{
+    cursor: pointer;
+}
+.Register form input[type='submit']:hover{
+    background-color: orange;
+}
+.Register a{
+    margin: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+.Register a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+@media only screen and (max-width: 600px){
+    .Register form input{
+        width: 80%;
+    }
+}
